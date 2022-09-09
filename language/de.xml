@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="de" languagename="Deutsch" countrycode="de">
+	<category name="wcf.jcoins.statement">
+		<item name="wcf.jcoins.statement.title.com.uz.jcoins.statement.invitation"><![CDATA[Einladung]]></item>
+		<item name="wcf.jcoins.statement.reason.com.uz.jcoins.statement.invitation"><![CDATA[<a href="{link controller='InviteListUser'}{/link}">{if LANGUAGE_USE_INFORMAL_VARIANT}Du hast{else}Sie haben{/if} eine Einladung erstellt.</a>]]></item>
+		
+		<item name="wcf.jcoins.statement.title.com.uz.jcoins.statement.invitation.success"><![CDATA[Einladung erfolgreich]]></item>
+		<item name="wcf.jcoins.statement.reason.com.uz.jcoins.statement.invitation.success"><![CDATA[<a href="{link controller='InviteListUser'}{/link}">{if LANGUAGE_USE_INFORMAL_VARIANT}Eine deiner{else}Eine Ihrer{/if} Einladungen war erfolgreich.</a>]]></item>
+		
+		<!-- wcf.jcoins.statement.category -->
+		<item name="wcf.jcoins.statement.category.com.uz.jcoins.invitation"><![CDATA[Einladung]]></item>
+	</category>
+</language>
