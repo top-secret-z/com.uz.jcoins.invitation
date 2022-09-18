@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/eventListener.xsd">
-	<import>
-		<eventlistener name="jCoinsInvitation">
-			<eventclassname>wcf\data\user\invite\InviteAction</eventclassname>
-			<eventname>finalizeAction</eventname>
-			<listenerclassname>wcf\system\event\listener\JCoinsInvitationListener</listenerclassname>
-		</eventlistener>
-		
-		<eventlistener name="jCoinsInvitationSuccess">
-			<eventclassname>wcf\data\user\invite\success\InviteSuccessAction</eventclassname>
-			<eventname>finalizeAction</eventname>
-			<environment>user</environment>
-			<listenerclassname>wcf\system\event\listener\JCoinsInvitationSuccessListener</listenerclassname>
-		</eventlistener>
-		
-		<eventlistener name="jCoinsInvitationAdd">
-			<eventclassname>wcf\form\InviteAddForm</eventclassname>
-			<eventname>checkPermissions</eventname>
-			<listenerclassname>wcf\system\event\listener\JCoinsInvitationAddFormListener</listenerclassname>
-		</eventlistener>
-	</import>
+    <import>
+        <eventlistener name="jCoinsInvitation">
+            <eventclassname>wcf\data\user\invite\InviteAction</eventclassname>
+            <eventname>finalizeAction</eventname>
+            <listenerclassname>wcf\system\event\listener\JCoinsInvitationListener</listenerclassname>
+        </eventlistener>
+
+        <eventlistener name="jCoinsInvitationSuccess">
+            <eventclassname>wcf\data\user\invite\success\InviteSuccessAction</eventclassname>
+            <eventname>finalizeAction</eventname>
+            <environment>user</environment>
+            <listenerclassname>wcf\system\event\listener\JCoinsInvitationSuccessListener</listenerclassname>
+        </eventlistener>
+
+        <eventlistener name="jCoinsInvitationAdd">
+            <eventclassname>wcf\form\InviteAddForm</eventclassname>
+            <eventname>checkPermissions</eventname>
+            <listenerclassname>wcf\system\event\listener\JCoinsInvitationAddFormListener</listenerclassname>
+        </eventlistener>
+    </import>
 </data>
