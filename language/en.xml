@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="en" languagename="English" countrycode="en">
-	<category name="wcf.jcoins.statement">
-		<item name="wcf.jcoins.statement.title.com.uz.jcoins.statement.invitation"><![CDATA[Invitation]]></item>
-		<item name="wcf.jcoins.statement.reason.com.uz.jcoins.statement.invitation"><![CDATA[<a href="{link controller='InviteListUser'}{/link}">You created an invitation.</a>]]></item>
-		
-		<item name="wcf.jcoins.statement.title.com.uz.jcoins.statement.invitation.success"><![CDATA[Invitation successful]]></item>
-		<item name="wcf.jcoins.statement.reason.com.uz.jcoins.statement.invitation.success"><![CDATA[<a href="{link controller='InviteListUser'}{/link}">One of your invitations was successful.</a>]]></item>
-		
-		<!-- wcf.jcoins.statement.category -->
-		<item name="wcf.jcoins.statement.category.com.uz.jcoins.invitation"><![CDATA[Invitation]]></item>
-	</category>
+    <category name="wcf.jcoins.statement">
+        <item name="wcf.jcoins.statement.title.com.uz.jcoins.statement.invitation"><![CDATA[Invitation]]></item>
+        <item name="wcf.jcoins.statement.reason.com.uz.jcoins.statement.invitation"><![CDATA[<a href="{link controller='InviteListUser'}{/link}">You created an invitation.</a>]]></item>
+
+        <item name="wcf.jcoins.statement.title.com.uz.jcoins.statement.invitation.success"><![CDATA[Invitation successful]]></item>
+        <item name="wcf.jcoins.statement.reason.com.uz.jcoins.statement.invitation.success"><![CDATA[<a href="{link controller='InviteListUser'}{/link}">One of your invitations was successful.</a>]]></item>
+
+        <!-- wcf.jcoins.statement.category -->
+        <item name="wcf.jcoins.statement.category.com.uz.jcoins.invitation"><![CDATA[Invitation]]></item>
+    </category>
 </language>
